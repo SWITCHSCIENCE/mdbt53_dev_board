@@ -6,7 +6,7 @@
 
 ## 構成
 
-リポジトリ直下は現行の HWMv2 ボード定義であり、`<BOARD_ROOT>/boards/ssci/mdbt53_dev_board/` に配置する。`board.yml` がボードと SoC を定義し、`*_nrf5340_cpuapp.dts`、`*_cpuapp_ns.dts`、`*_cpunet.dts` が各ターゲットの DeviceTree 定義である。`reference/ncs-v2.4.0/ssci_mdbt53_dev_board/` は v2.4.0 向けの旧ボード定義であり、参照専用とする。`doc/` には BOM、ネットリスト、商品情報があり、回路・部品・ピン変更時の一次資料として扱う。
+リポジトリ直下は現行の HWMv2 ボード定義であり、`<BOARD_ROOT>/boards/ssci/mdbt53_dev_board/` に配置する。`board.yml` がボードと SoC を定義し、`*_nrf5340_cpuapp.dts`、`*_cpuapp_ns.dts`、`*_cpunet.dts` が各ターゲットの DeviceTree 定義である。`doc/` には BOM、ネットリスト、商品情報があり、回路・部品・ピン変更時の一次資料として扱う。
 
 ## 静的確認
 
