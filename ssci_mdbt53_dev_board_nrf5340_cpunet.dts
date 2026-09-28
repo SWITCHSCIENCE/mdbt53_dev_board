@@ -1,0 +1,33 @@
+/dts-v1/;
+
+#include <nordic/nrf5340_cpunet_qkaa.dtsi>
+#include "ssci_mdbt53_dev_board-pinctrl.dtsi"
+#include "ssci_mdbt53_dev_board_nrf5340_cpunet_common.dtsi"
+
+/ {
+	model = "Switch Science MDBT53-1M nRF5340 Development Board Network Core";
+
+	chosen {
+		zephyr,console = &uart0;
+		zephyr,shell-uart = &uart0;
+		zephyr,uart-mcumgr = &uart0;
+		zephyr,bt-mon-uart = &uart0;
+		zephyr,bt-c2h-uart = &uart0;
+		zephyr,sram = &sram1;
+		zephyr,flash = &flash1;
+		zephyr,code-partition = &slot0_partition;
+		zephyr,bt-hci-ipc = &ipc0;
+	};
+
+	aliases {
+		watchdog0 = &wdt0;
+	};
+};
+
+&uart0 {
+	status = "okay";
+	current-speed = <115200>;
+	pinctrl-0 = <&uart0_default>;
+	pinctrl-1 = <&uart0_sleep>;
+	pinctrl-names = "default", "sleep";
+};

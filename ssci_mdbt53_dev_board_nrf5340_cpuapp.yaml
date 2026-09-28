@@ -1,0 +1,15 @@
+identifier: ssci_mdbt53_dev_board/nrf5340/cpuapp
+name: Switch Science MDBT53-1M nRF5340 Application MCU
+type: mcu
+arch: arm
+toolchain:
+  - gnuarmemb
+  - zephyr
+ram: 448
+flash: 1024
+supported:
+  - gpio
+  - uart
+  - usb_device
+  - watchdog
+  - netif:openthread

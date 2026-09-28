@@ -1,0 +1,9 @@
+board:
+  name: ssci_mdbt53_dev_board
+  full_name: Switch Science MDBT53-1M nRF5340 Development Board
+  vendor: ssci
+  socs:
+    - name: nrf5340
+      variants:
+        - name: ns
+          cpucluster: cpuapp

@@ -1,0 +1,13 @@
+identifier: ssci_mdbt53_dev_board/nrf5340/cpunet
+name: Switch Science MDBT53-1M nRF5340 Network MCU
+type: mcu
+arch: arm
+toolchain:
+  - gnuarmemb
+  - zephyr
+ram: 64
+flash: 256
+supported:
+  - gpio
+  - uart
+  - watchdog

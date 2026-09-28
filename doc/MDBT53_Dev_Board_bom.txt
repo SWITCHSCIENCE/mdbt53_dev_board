@@ -1,0 +1,29 @@
+Part Value                         Device                        Package                        Description                     
+C1   10u                           CAPACITOR2012_REDUCED         SMD2012_REDUCED                Generic Capacitor               
+C2   2.2uF                         CAPACITOR1005                 SMD1005                        Generic Capacitor               
+C3   2.2uF                         CAPACITOR1005                 SMD1005                        Generic Capacitor               
+C4   2.2uF                         CAPACITOR1005                 SMD1005                        Generic Capacitor               
+C5   2.2uF                         CAPACITOR1005                 SMD1005                        Generic Capacitor               
+C6   1uF                           CAPACITOR1005                 SMD1005                        Generic Capacitor               
+C7   1uF                           CAPACITOR1005                 SMD1005                        Generic Capacitor               
+D1   RB161MM-20                    RB161MM-20                    SOD-123FL                      Schottky Barrier Diode          
+IC1  XC6222B331MR-G                XC6222                        SOT-25                                                         
+J1   U262-161N-4BVC11              U262-161N-4BVC11              U262-161N-4BVC11                                               
+J2   M20-NOSILK-PLATED-HALF-HOLE-R M20-NOSILK-PLATED-HALF-HOLE-R 1X20-NOSILK-PLATED-HALF-HOLE-R                                 
+J3   M20-NOSILK-PLATED-HALF-HOLE   M20-NOSILK-PLATED-HALF-HOLE   1X20-NOSILK-PLATED-HALF-HOLE                                   
+J4   ARM_CORESIGHT10HIROSUGI       ARM_CORESIGHT10HIROSUGI       2X05_1.27MM_SMD_HIROSUGI                                       
+L1   10uH/250mA                    INDUCTOR1608                  SMD1608_REDUCED                Generic SMD Inductor            
+L2   10uH/250mA                    INDUCTOR1608                  SMD1608_REDUCED                Generic SMD Inductor            
+LED  19-213/R6C-AP1Q2B/3T(EE)      LED1608_REDUCED               LED1608_REDUCED                Generic LEDs                    
+Q1   ABS07-120-32.768kHz-T         KX-327-NHF                    3.2X1.5                        Tuning Fork Crystals (kHz) SMD: 
+R1   5.1k                          RESISTOR0603                  SMD0603                        Generic Registor                
+R2   5.1k                          RESISTOR0603                  SMD0603                        Generic Registor                
+R3   10k                           RESISTOR0603                  SMD0603                        Generic Registor                
+R4   27                            RESISTOR0603                  SMD0603                        Generic Registor                
+R5   27                            RESISTOR0603                  SMD0603                        Generic Registor                
+R6   200k                          RESISTOR0603                  SMD0603                        Generic Registor                
+R8   1k                            RESISTOR0603                  SMD0603                        Generic Registor                
+SBU1 PAD-SQUARE-050-NOCREAM        PAD-SQUARE-050-NOCREAM        SQUARE050-NOCREAM                                              
+SBU2 PAD-SQUARE-050-NOCREAM        PAD-SQUARE-050-NOCREAM        SQUARE050-NOCREAM                                              
+SW1  SKRPABE010                    TACTSWITCH-4P-2SKRP           SKRP                                                           
+U1   MDBT53-1M                     MDBT53_USEFUL                 MDBT53                                                         

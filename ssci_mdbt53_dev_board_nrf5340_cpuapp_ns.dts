@@ -1,0 +1,16 @@
+/dts-v1/;
+
+#include <arm/nordic/nrf5340_cpuapp_ns_qkaa.dtsi>
+#include "ssci_mdbt53_dev_board_nrf5340_cpuapp_common.dtsi"
+
+/ {
+	model = "Switch Science MDBT53-1M nRF5340 Development Board Application Non-Secure";
+
+	chosen {
+		zephyr,sram = &sram0_ns_app;
+		zephyr,flash = &flash0;
+		zephyr,code-partition = &slot0_ns_partition;
+	};
+};
+
+#include <nordic/nrf5340_cpuapp_ns_partition.dtsi>
